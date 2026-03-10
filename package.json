@@ -2,7 +2,7 @@
   "name": "ghlearn-create-applications-with-the-copilot-cli",
   "version": "1.0.0",
   "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
-  "main": "index.js",
+  "main": "src/calculator.js",
   "scripts": {
     "test": "jest"
   },

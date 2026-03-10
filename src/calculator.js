@@ -13,10 +13,10 @@
  *   Square Root (sqrt)      – Returns the square root of n (single operand)
  *
  * Usage:
- *   node calculator.js <number> <operator> <number>
- *   node calculator.js sqrt <number>
- *   Example: node calculator.js 10 + 5
- *   Example: node calculator.js sqrt 25
+ *   node src/calculator.js <number> <operator> <number>
+ *   node src/calculator.js sqrt <number>
+ *   Example: node src/calculator.js 10 + 5
+ *   Example: node src/calculator.js sqrt 25
  */
 
 // Addition: adds two numbers
@@ -107,11 +107,11 @@ if (require.main === module) {
   }
 
   if (args.length !== 3) {
-    console.log("Usage: node calculator.js <number> <operator> <number>");
-    console.log("       node calculator.js sqrt <number>");
-    console.log("Operators: + - * / % **");
-    console.log("Example: node calculator.js 10 + 5");
-    console.log("Example: node calculator.js sqrt 25");
+    console.log("Usage: node src/calculator.js <number> <operator> <number>");
+    console.log("       node src/calculator.js sqrt <number>");
+    console.log("Operators: + - * x / % ** ^");
+    console.log("Example: node src/calculator.js 10 + 5");
+    console.log("Example: node src/calculator.js sqrt 25");
     process.exit(1);
   }
 
