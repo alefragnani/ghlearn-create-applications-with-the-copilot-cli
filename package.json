@@ -1,0 +1,24 @@
+{
+  "name": "ghlearn-create-applications-with-the-copilot-cli",
+  "version": "1.0.0",
+  "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefragnani/ghlearn-create-applications-with-the-copilot-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alefragnani/ghlearn-create-applications-with-the-copilot-cli/issues"
+  },
+  "homepage": "https://github.com/alefragnani/ghlearn-create-applications-with-the-copilot-cli#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
